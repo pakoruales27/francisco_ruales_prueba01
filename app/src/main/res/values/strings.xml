@@ -10,7 +10,9 @@
 
     <string name="Text_nombre">Ingrese Nombres</string>
     <string name="Text_apellido">Ingrese Apellidos</string>
-
+    <string name="parte_entera">Parte Entera</string>
+    <string name="residuo">Residuo</string>
+    <string name="numero_ivertido">Numero Ivertido</string>
 
 
 </resources>
