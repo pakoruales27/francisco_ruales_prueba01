@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">francisco_ruales_prueba01</string>
     <string name="Nombres_Hint">Nombres</string>
+    <string name="Apellidos_Hint">Apellidos</string>
+    <string name="Dividendo_Hint">Dividendo</string>
+    <string name="Divisor_Hint">Divisor</string>
+    <string name="Button_Next">Siguiente</string>
+    <string name="Button_Mostrar">Mostrar Resultados</string>
+    <string name="Numero_hint">Número</string>
+
+    <string name="Text_nombre">Ingrese Nombres</string>
+    <string name="Text_apellido">Ingrese Apellidos</string>
+
 
 
 </resources>

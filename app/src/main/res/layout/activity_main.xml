@@ -11,29 +11,29 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Text_nombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextPersonShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:editable="false"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/Nombres_Hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Text_apellido" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextPersonApellidoShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView4"
