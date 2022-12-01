@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:editable="false"
+        android:focusable="false"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -35,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:editable="false"
+        android:focusable="false"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -52,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:editable="false"
+        android:focusable="false"
         android:ems="10"
         android:inputType="number"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
@@ -68,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:focusable="false"
         android:inputType="number"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
         android:autofillHints="" />
@@ -83,6 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:focusable="false"
         android:inputType="number"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
         android:autofillHints="" />
@@ -99,6 +104,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
+        android:focusable="false"
         android:minHeight="48dp"
         tools:ignore="SpeakableTextPresentCheck"
         android:autofillHints="" />
@@ -115,6 +121,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
+        android:focusable="false"
         android:minHeight="48dp"
         tools:ignore="SpeakableTextPresentCheck"
         android:autofillHints="" />
@@ -129,6 +136,7 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:enabled="false"
         android:text="@string/Button_Mostrar" />
 
     <com.google.android.material.textfield.TextInputLayout

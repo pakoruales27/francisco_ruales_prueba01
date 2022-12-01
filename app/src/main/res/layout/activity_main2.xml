@@ -11,78 +11,94 @@
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Text_nombre" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/Nombres_Hint"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Text_apellido" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/Apellidos_Hint"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Dividendo_Hint" />
 
     <EditText
         android:id="@+id/editTextNumber6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:focusable="false"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Divisor_Hint" />
 
     <EditText
         android:id="@+id/editTextNumber7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:focusable="false"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/Numero_hint" />
 
     <EditText
         android:id="@+id/editTextNumber8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:focusable="false"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/Button_Next" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
+        android:enabled="false"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/Button_Cerrar" />
 </LinearLayout>

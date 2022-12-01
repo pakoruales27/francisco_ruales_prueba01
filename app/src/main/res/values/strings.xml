@@ -6,6 +6,7 @@
     <string name="Divisor_Hint">Divisor</string>
     <string name="Button_Next">Siguiente</string>
     <string name="Button_Mostrar">Mostrar Resultados</string>
+    <string name="Button_Cerrar">Cerrar</string>
     <string name="Numero_hint">Número</string>
 
     <string name="Text_nombre">Ingrese Nombres</string>
