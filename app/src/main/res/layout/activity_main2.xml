@@ -14,7 +14,7 @@
         android:text="@string/Text_nombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextNombreMain2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -30,7 +30,7 @@
         android:text="@string/Text_apellido" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextApellidoMAin2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -90,7 +90,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonMain2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Button_Next" />

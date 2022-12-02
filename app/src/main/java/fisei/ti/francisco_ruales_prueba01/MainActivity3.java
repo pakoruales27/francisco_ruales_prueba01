@@ -3,12 +3,15 @@ package fisei.ti.francisco_ruales_prueba01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity3 extends AppCompatActivity {
 
     EditText EditTextDividendo;
     EditText EditTextDivisor;
+
+    Button buttonSiguiente;
 
 
     @Override

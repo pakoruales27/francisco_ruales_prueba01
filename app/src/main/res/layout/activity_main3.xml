@@ -17,9 +17,11 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="false"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView15"
@@ -33,7 +35,8 @@
         android:focusable="false"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView16"
@@ -47,7 +50,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Dividendo_Hint"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView17"
@@ -61,7 +66,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Divisor_Hint"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView18"
@@ -75,11 +82,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Numero_hint"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/Button_Cerrar" />
 </LinearLayout>
