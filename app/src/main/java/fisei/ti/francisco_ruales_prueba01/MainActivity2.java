@@ -29,6 +29,20 @@ public class MainActivity2 extends AppCompatActivity {
         EditTextApellido = findViewById(R.id.editTextApellidoMAin2);
         ButtonSiguiente2 = findViewById(R.id.buttonMain2);
 
+        Bundle extra = getIntent().getExtras();
+        if (extra != null) {
+        String dividendo = extra.getString("Dividendo");
+        String divisor = extra.getString("Divisor");
+        String numero = extra.getString("Numero");
+
+        EditTextDividendo = findViewById(R.id.editTextDividendoMain2);
+        EditTextDivisor = findViewById(R.id.editTextDivisorMain2);
+        EditTextNumero = findViewById(R.id.editTextNumberMain2);
+
+        EditTextDividendo.setText(dividendo);
+        EditTextDivisor.setText(divisor);
+        EditTextNumero.setText(numero);
+        }
 
 
         ButtonSiguiente2.setOnClickListener(new View.OnClickListener() {
@@ -45,18 +59,7 @@ public class MainActivity2 extends AppCompatActivity {
 
                 startActivity(intent);
 
-                Bundle extra = getIntent().getExtras();
-                String dividendo = extra.getString("Dividendo");
-                String divisor = extra.getString("Divisor");
-                String numero = extra.getString("Numero");
 
-                EditTextDividendo = findViewById(R.id.editTextDividendoMain2);
-                EditTextDivisor = findViewById(R.id.editTextDivisorMain2);
-                EditTextNumero = findViewById(R.id.editTextNumberMain2);
-
-                EditTextDividendo.setText(dividendo);
-                EditTextDivisor.setText(divisor);
-                EditTextNumero.setText(numero);
             }
         });
     }
