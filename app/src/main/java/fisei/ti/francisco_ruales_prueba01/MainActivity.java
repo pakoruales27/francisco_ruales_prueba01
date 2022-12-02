@@ -12,6 +12,9 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText EditTextNombre;
+    EditText EditTextApellido;
+
     Button ButtonSiguiente;
 
     @SuppressLint("MissingInflatedId")
@@ -20,8 +23,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        EditTextNombre = findViewById(R.id.editTextNombreMain1);
+        EditTextApellido = findViewById(R.id.editTextApellidoMain1);
+
+        Edi
 
         ButtonSiguiente = findViewById(R.id.buttonmain1);
+        Bundle extra = getIntent().getExtras();
+
+        String nombre = extra.getString("Nombre");
+        String apellido = extra.getString("Apellido");
 
         ButtonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +44,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void Onclick_Siguiente(View view){
 
-    }
 }

@@ -31,8 +31,12 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
 
                 String Nombre = EditTextNombre.getText().toString();
+                String Apellido = EditTextApellido.getText().toString();
 
                 Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+
+                intent.putExtra("Nombre",Nombre);
+                intent.putExtra("Apellido", Apellido);
 
                 startActivity(intent);
             }
