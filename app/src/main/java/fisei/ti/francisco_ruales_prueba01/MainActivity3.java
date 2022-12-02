@@ -15,6 +15,7 @@ public class MainActivity3 extends AppCompatActivity {
     EditText EditTextApellido;
     EditText EditTextDividendo;
     EditText EditTextDivisor;
+    EditText EdittextNumero;
 
     Button buttonCerrar;
 
@@ -25,7 +26,9 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-
+        EditTextDividendo = findViewById(R.id.editTextDividendoMain3);
+        EditTextDivisor = findViewById(R.id.editTextDivisorMain3);
+        EdittextNumero = findViewById(R.id.editTextNumberMin3);
         buttonCerrar = findViewById(R.id.buttonCerrarMain3);
 
         Bundle extra = getIntent().getExtras();
@@ -44,11 +47,13 @@ public class MainActivity3 extends AppCompatActivity {
             public void onClick(View view) {
                 String Dividendo = EditTextDividendo.getText().toString();
                 String Divisor = EditTextDivisor.getText().toString();
+                String Numero = EdittextNumero.getText().toString();
 
                 Intent intent = new Intent(MainActivity3.this,MainActivity2.class);
 
                 intent.putExtra("Dividendo",Dividendo);
                 intent.putExtra("Divisor",Divisor);
+                intent.putExtra("Numero",Numero);
 
                 startActivity(intent);
             }

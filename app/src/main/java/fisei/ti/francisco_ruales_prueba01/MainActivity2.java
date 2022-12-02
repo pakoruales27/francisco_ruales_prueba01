@@ -13,6 +13,9 @@ public class MainActivity2 extends AppCompatActivity {
 
     EditText EditTextNombre;
     EditText EditTextApellido;
+    EditText EditTextDividendo;
+    EditText EditTextDivisor;
+    EditText EditTextNumero;
 
     Button ButtonSiguiente2;
 
@@ -25,6 +28,17 @@ public class MainActivity2 extends AppCompatActivity {
         EditTextNombre = findViewById(R.id.editTextNombreMain2);
         EditTextApellido = findViewById(R.id.editTextApellidoMAin2);
         ButtonSiguiente2 = findViewById(R.id.buttonMain2);
+
+        Bundle extra = getIntent().getExtras();
+
+        String dividendo = extra.getString("Dividendo");
+        String divisor = extra.getString("Divisor");
+
+        EditTextDividendo = findViewById(R.id.editTextDividendoMain2);
+        EditTextDivisor = findViewById(R.id.editTextDivisorMain2);
+        EditTextNumero = findViewById(R.id.editTextNumberMain2);
+
+
 
         ButtonSiguiente2.setOnClickListener(new View.OnClickListener() {
             @Override
